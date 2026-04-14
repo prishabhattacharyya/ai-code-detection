@@ -81,9 +81,9 @@ git clone https://github.com/prishabhattacharyya/ai-code-detection.git
 
 | Notebook | Subtask |
 |----------|---------|
-| `Semeval_A.ipynb` | Binary Detection |
-| `semEval_B.ipynb` | Multi-Class Attribution |
-| `Semeval_C.ipynb` | Hybrid & Adversarial Detection |
+| `SemEval_A.ipynb` | Binary Detection |
+| `SemEval_B.ipynb` | Multi-Class Attribution |
+| `SemEval_C.ipynb` | Hybrid & Adversarial Detection |
 
 **Notes:**
 - GPU is recommended (T4 or better) for all notebooks
