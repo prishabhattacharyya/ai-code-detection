@@ -36,7 +36,7 @@ Modern LLMs generate highly realistic code, making authorship detection increasi
 ### Subtask C: Hybrid & Adversarial Code Detection
 - **Goal:** Handle more realistic scenarios by classifying code into four classes icnluding human, machine-generated, hybrid, and adversarial
 - **Model:** Qwen2.5-Coder-7B with 4-class classification head
-- **Setup: **
+- **Setup:**
   - Training method: QLoRA (4-bit quantization + LoRA adapters)
   - Loss computed on response tokens only (train_on_response_only)
   - Best checkpoint selected by validation Macro F1
