@@ -95,4 +95,9 @@ git clone https://github.com/prishabhattacharyya/ai-code-detection.git
 This project was completed as part of a team. I independently designed and implemented the Subtask C pipeline, including model selection, QLoRA fine-tuning setup, and the 4-class task formulation for hybrid and adversarial code detection. I also co-authored the system description paper.
 
 ## References
-Based on SemEval-2026 Task 13 on machine-generated code detection. See the accompanying paper for full experimental details.
+Based on SemEval-2026 Task 13 on machine-generated code detection. See the [accompanying paper](AI_Code_Detection_SemEval2026.pdf) for full experimental details.
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+
