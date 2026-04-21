@@ -18,7 +18,7 @@ Modern LLMs generate highly realistic code, making authorship detection increasi
   - Sequence length: 256 tokens  
   - Learning rate: 2e-5  
   - Batch size: 8 (train), 16 (eval)  
-- **Key Insight:** Local stylistic patterns (naming, structure) are are highly discriminative.  
+- **Key Insight:** Local stylistic patterns (naming, structure) are highly discriminative.  
 
 ---
 
@@ -34,7 +34,7 @@ Modern LLMs generate highly realistic code, making authorship detection increasi
 ---
 
 ### Subtask C: Hybrid & Adversarial Code Detection
-- **Goal:** Handle more realistic scenarios by classifying code into four classes icnluding human, machine-generated, hybrid, and adversarial
+- **Goal:** Handle more realistic scenarios by classifying code into four classes including human, machine-generated, hybrid, and adversarial
 - **Model:** Qwen2.5-Coder-7B with 4-class classification head
 - **Setup:**
   - Training method: QLoRA (4-bit quantization + LoRA adapters)
